@@ -8,3 +8,8 @@ jobs:
         run: echo "Hello world ! "
       - name: Print-Goodbye
         run: echo "Good Bye !!! "
+      - name: Multiple-Commands-Ux
+        run: |
+             echo "First Output"
+             echo "Second Output"
+
